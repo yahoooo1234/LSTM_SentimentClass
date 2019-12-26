@@ -6,7 +6,6 @@
 
 #Implementation of SentClass3 with 1lac training data- using Unidirectional LSTM . Gave 76% test accuracy
 
-import numpy as np
 from utils import *
 import pandas as pd
 import re

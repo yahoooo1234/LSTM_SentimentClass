@@ -13,7 +13,7 @@ input - ['sentence1 ...',sentence2 ...', ...]
 ouput - [[indices_for_sentence1],[indices_for_sentence1],...]
 
 pretrained_embedding_layer() - defines the pre-trained embedding layer
-SentiSid() - defines the model architecture
+sentiSid() - defines the model architecture
 
 Model uses optimizer "adam" and loss function - "binary_crossentropy"
 

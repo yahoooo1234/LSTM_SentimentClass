@@ -152,7 +152,7 @@ def pretrained_embedding_layer(word_to_vec_map, word_to_index):
 # In[22]:
 
 
-def senti(input_shape, word_to_vec_map, word_to_index):
+def sentiSid(input_shape, word_to_vec_map, word_to_index):
     
     # Define sentence_indices as the input of the graph.
     # It should be of shape input_shape and dtype 'int32' (as it contains indices, which are integers).
@@ -190,7 +190,7 @@ def senti(input_shape, word_to_vec_map, word_to_index):
 # In[23]:
 
 
-model = senti((maxLen,), word_to_vec_map, word_to_index)
+model = sentiSid((maxLen,), word_to_vec_map, word_to_index)
 model.summary()
 
 
